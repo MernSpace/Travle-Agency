@@ -5,15 +5,17 @@ const AboutUsPage = () => {
     <div className="min-h-screen">
       <main>
         {/* Hero Section */}
-        <section className="relative bg-horizon-dark text-white py-20">
-          <div className="absolute inset-0 z-0 opacity-30 bg-[url('https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1950&q=80')] bg-cover bg-center"></div>
-          <div className="container mx-auto px-4 relative z-10">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">About Horizon Voyages</h1>
-            <p className="text-xl md:text-2xl font-light max-w-2xl accent-text">
-              Creating extraordinary travel experiences since 2010
-            </p>
-          </div>
-        </section>
+      
+        <section className="pt-40 pb-20 bg-primary-600 text-white">
+        <div className="container">
+          <h1 className="mb-6">
+            <span className="text-4xl md:text-5xl font-bold">About Horizon Voyages</span>
+          </h1>
+          <p className="text-primary-100 mb-4 max-w-2xl">
+      Creating extraordinary travel experiences since 2010
+          </p>
+        </div>
+      </section>
 
         {/* Our Story */}
         <section className="py-16 bg-white">
@@ -33,7 +35,7 @@ const AboutUsPage = () => {
               </div>
               <div className="rounded-lg overflow-hidden shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1513920360676-df044ebc18c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1567&q=80" 
+                  src="https://images.pexels.com/photos/1010657/pexels-photo-1010657.jpeg?auto=compress&cs=tinysrgb&w=1600" 
                   alt="Horizon Voyages team" 
                   className="w-full h-auto"
                 />
@@ -144,7 +146,7 @@ const AboutUsPage = () => {
         </section>
 
         {/* Achievements */}
-        <section className="py-16 bg-gradient-to-r from-horizon-blue to-horizon-teal text-white">
+        <section className="py-16 bg-primary-600 text-white">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Our Achievements</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -176,10 +178,10 @@ const AboutUsPage = () => {
               Our team of expert travel advisors is ready to help you plan your next unforgettable adventure.
             </p>
             <div className="flex justify-center space-x-4 flex-wrap">
-              <a href="/contact" className="btn-primary my-2">
+              <a href="/contact" className="btn-primary my-2 btn">
                 Contact Us
               </a>
-              <a href="/destinations" className="btn-secondary my-2">
+              <a href="/destinations" className="btn-secondary btn my-2">
                 Explore Destinations
               </a>
             </div>

@@ -232,7 +232,7 @@ const handleSubmit = (e: React.FormEvent) => {
             </div>
 
             <div className="mt-12 text-center">
-              <button className="btn-primary">
+              <button className="btn-primary btn">
                 Load More Articles
               </button>
             </div>
@@ -271,7 +271,7 @@ const handleSubmit = (e: React.FormEvent) => {
               </div>
               
               {/* Newsletter */}
-              <div className="lg:col-span-2 rounded-xl overflow-hidden shadow-lg transform transition-all duration-300 hover:shadow-xl bg-blue-600">
+              <div className="lg:col-span-2 rounded-xl overflow-hidden shadow-lg transform transition-all duration-300 hover:shadow-xl bg-blue-600 flex items-center justify-center">
                 <div className="bg-gradient-to-r from-horizon-blue to-horizon-teal text-white p-8 relative overflow-hidden">
                   {/* Decorative elements */}
                   <div className="absolute top-0 right-0 w-64 h-64 bg-white opacity-10 rounded-full -translate-y-1/2 translate-x-1/2"></div>
